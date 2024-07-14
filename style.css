@@ -1,0 +1,130 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    overflow-x: hidden;
+}
+.background-azul{
+    width: 100%;
+    background-color: #2f86d6;
+}
+.secao-topo{
+    max-width: 1024px;
+    padding: 35px 0px;
+    position: relative;
+    text-align: center;
+    margin: 0 auto;
+    background-color: #2f86d6;
+}
+.secao-topo img{
+    width: 70px;
+    height: 70px;
+    margin-right: 1000px;
+}
+h1{
+    margin-right:700px;
+    margin-top: -80px;
+}
+.secao-topo p{
+    color: #ffffff;
+    position: absolute;
+    top: 60px;
+    left: 80px;
+}
+.secao-topo a{
+    position: relative;
+    left: 300px;
+    top: -40px;
+    text-decoration: none;
+    color: #233032;
+    font-weight: bold;
+    margin-left: 10px;
+}
+.secao-rodape{
+    width: 100%;
+    position: relative;
+    background-color: #2f86d6;
+    height: 250px;
+    padding: 1px 0;
+}
+.logotipo-rodape{
+    width: 320px;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+.logotipo-rodape img{
+    width: 70px;
+    height: 70px;
+}
+.logotipo-rodape h1{
+    position: absolute;
+    left: 610px;
+}
+.logotipo-rodape p{
+    position: absolute;
+    left: 600px;
+    top: 80px;
+    color: #ffffff;
+}
+.secao-contato-telefone{
+    position: relative;
+    padding: 70px 0;
+    text-align: center;
+    font-weight: bold;
+}
+.secao-contato-telefone p{
+    position: absolute;
+    color: #ffffff;
+    top: 15px;
+    right:390px;
+}
+.final-do-rodape{
+    padding: 5px 0px;
+    text-align: center;
+    background-color: #ffffff;
+}
+.final-do-rodape p{
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+}
+span{
+    color: #2f86d6;
+}
+.secao-tabela{
+    max-width: 1024px;
+    margin-left: 80px;
+    padding: 50px ;
+}
+th p{
+    font-size: 14px;
+    color: #233032;
+    opacity: 40%;
+}
+th{
+    padding: 20px;  
+    background-color: #f1f3f7;
+}
+.branco{
+    background-color: white;
+}
+.fundo-cinza{
+    background-color: #f1f3f7;
+    padding: 20px;
+    font-weight: bold;
+    font-size: 14px;
+}
+td{
+    padding: 20px;
+    text-align: center;
+    border-right: 4px solid #f1f3f7;
+    border-bottom: 4px solid #f1f3f7;
+}
+.marcador-azul{
+    width: 20px;
+    height: 20px;
+    margin: auto;
+    background-color: #2f86d6;
+    border-radius: 100px;
+}

@@ -1,0 +1,236 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    overflow-x: hidden;
+}
+.secao-topo{
+    max-width: 1024px;
+    padding: 35px 0px;
+    position: relative;
+    text-align: center;
+    margin: 0 auto;
+    background-color: #ffffff;
+}
+.secao-topo img{
+    width: 70px;
+    height: 70px;
+    margin-right: 1000px;
+}
+h1{
+    margin-right:700px;
+    margin-top: -80px;
+}
+.secao-topo p{
+    color: #2f86d6;
+    position: absolute;
+    top: 60px;
+    left: 80px;
+}
+.secao-topo a{
+    position: relative;
+    left: 300px;
+    top: -40px;
+    text-decoration: none;
+    color: #233032;
+    font-weight: bold;
+    margin-left: 10px;
+}
+.secao-banner{
+    background-color: #2f86d6;
+    width: 100%;
+    color: white;
+    padding: 120px 30px;
+}
+.secao-banner p{
+    max-width: 400px;
+    margin-left: 120px;
+    font-weight: 50;
+    font-size: 18px;
+}
+.secao-banner h2{
+    max-width: 400px;
+    margin-left: 120px;
+    font-size: 30px;
+    color: white;
+}
+
+.secao-banner img{
+    margin-left: 700px;
+    margin-top: -380px;
+}
+.secao-anuncio{
+    width: 100%;
+    background-color: #233032;
+    position: relative;
+}
+.secao-anuncio-primeira{
+    width: 1024px;
+    padding: 40px 0;
+    margin: 0 auto;
+}
+.secao-anuncio-primeira-h1{
+    width: 600px;
+    margin-right: 1000px;
+}
+.secao-anuncio h2, p{
+    color: white;
+}
+.secao-anuncio a{
+    position: absolute;
+    color: white;
+    text-decoration: none;
+    top: 30%;
+    right: 180px;
+    padding: 20px;
+    background-color: #2f86d6;
+    border-radius: 5px;
+}
+a img{
+    margin: 0 10px
+}
+.secao-informacoes{
+    width: 100%;
+    padding: 100px 0;
+}
+.secao-informacoes h2{
+    color: #233032;
+    width: 800px;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 30px;
+}
+span{
+    color: #2f86d6;
+}
+.tres-informacoes{
+    width: 1024px;
+    margin: 0 auto;
+    display: flex;
+    margin-top: 100px;
+    text-align: center;
+}
+.tres-informacoes p{
+    color: rgb(0, 0, 0);
+}
+.tres-informacoes img{
+    width: 100px;
+    height: 100px;
+}
+.primeira-informacao, .segunda-informacao, .terceira-informacao{
+    width: 33%;
+    margin-left: 10px;
+}
+.secao-planos{
+    width: 100%;
+    background-color: #f1f3f7;
+    padding: 100px 0;
+}
+.secao-planos h2{
+    text-align: center;
+    width: 1024px;
+    margin: 0 auto;
+    padding-bottom: 100px;
+    font-size: 30px;
+}
+.secao-planos img{
+    width: 100px;
+}
+.secao-planos p, h2{
+    color: #233032;
+}
+.tabela-planos{
+    width: 1024px;
+    margin: 0 auto;
+    text-align: center;
+}
+.tabela-planos p{
+    font-weight: 50;
+    opacity: 50%;
+    width: 70%;
+    margin-left: 35px;
+}
+table{
+    background-color: white;
+    padding: 0 0;
+    box-shadow: 0px 2px 40px 15px rgba(47,134,214,1);
+}
+th{
+    border-right: 2px solid #f1f3f7;
+}
+td{
+    border-right: 2px solid #f1f3f7;
+    padding: 15px;
+    font-weight: 500;
+}
+.cinza{
+    background: #f1f3f7;
+}
+.secao-anuncio-segunda{
+    width: 1024px;
+    padding: 40px 0;
+    margin: 0 auto;
+    position: relative;
+}
+.secao-anuncio-segunda h2{
+    color: white;
+}
+.secao-anuncio-segunda-principal{
+    width: 100%;
+    background-color: #2f86d6;
+}
+.secao-anuncio-segunda-h1{
+    width: 600px;
+    margin-right: 1000px;
+}
+.segundo-link{
+    position: absolute;
+    color: white;
+    text-decoration: none;
+    top: 30%;
+    right: 1px;
+    padding: 20px;
+    background-color:#233032;
+    border-radius: 5px;
+    font-weight: bold;
+}
+.secao-rodape{
+    width: 100%;
+    position: relative;
+}
+.logotipo-rodape{
+    width: 320px;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+.logotipo-rodape img{
+    width: 70px;
+    height: 70px;
+}
+.logotipo-rodape h1{
+    position: absolute;
+    left: 610px;
+}
+.logotipo-rodape p{
+    position: absolute;
+    left: 600px;
+    top: 30px;
+}
+.secao-contato-telefone{
+    padding: 70px 0;
+    text-align: center;
+    font-weight: bold;
+}
+.secao-contato-telefone p{
+    color: #233032;
+}
+.final-do-rodape{
+    padding: 5px 0px;
+    text-align: center;
+}
+.final-do-rodape p{
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+}
